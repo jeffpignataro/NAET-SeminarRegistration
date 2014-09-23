@@ -387,7 +387,15 @@ Public Class SeminarRegistrationForm
             Dim doctor As Doctor = _doctor.GetDoctorByDoctorId(sDocKey)
             If Not (IsNothing(doctor)) Then
                 'return doctor info to client
-                Return JsonConvert.SerializeObject(doctor)
+                'Return JsonConvert.SerializeObject(doctor)
+                Dim returnJson As Object = doctor
+                Try
+                    Dim doctorLocation As DoctorLocation = New DoctorLocation()
+                    returnJson.DoctorLocation = doctorLocation.GetDoctorAddressByDoctorId(returnJson.DoctorKey).FirstOrDefault()
+                Catch ex As Exception
+                    'If not a doctor than just return error message
+                End Try
+                Return JsonConvert.SerializeObject(returnJson)
             End If
             'Something broke...
             Return String.Empty

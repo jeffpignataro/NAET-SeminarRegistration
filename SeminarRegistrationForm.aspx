@@ -96,6 +96,21 @@
                         $(".Fax").val(json.Fax);
                         $(".Email").val(json.Email);
                         $(".DoctorKey").val(json.DoctorKey);
+                        $(".Address").val(json.DoctorLocation.Address1);
+                        $(".City").val(json.DoctorLocation.City);
+                        $(".State").val(json.DoctorLocation.State);
+                        $(".Zip").val(json.DoctorLocation.Zip);
+                        if (json.DoctorLocation.Country == 'USA') {
+                            $(".Country").val('UNITED STATES');
+
+                        } else {
+                            $(".Country").val(json.DoctorLocation.Country.toUpperCase);
+
+                        }
+                        //Phone and Fax fields are not formatted properly
+                        //They contain more information than just phone numbers
+                        //$(".Phone").val(json.DoctorLocation.Phone);
+                        //$(".Fax").val(json.DoctorLocation.Fax);
                         closeModal();
                         setRefresherCheckBoxList();
                     }
