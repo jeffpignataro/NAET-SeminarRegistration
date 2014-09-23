@@ -1,0 +1,1447 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SeminarRegistrationForm
+</name>
+</assembly>
+<members>
+<member name="T:SeminarRegistrationForm._Default">
+	<summary>
+_Default class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationSuccess.ScriptManager">
+	<summary>
+ScriptManager control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.ScriptManager">
+	<summary>
+ScriptManager control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.tbfName">
+	<summary>
+tbfName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.CustomValidator1">
+	<summary>
+CustomValidator1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.tblName">
+	<summary>
+tblName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.CustomValidator8">
+	<summary>
+CustomValidator8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.tbDegree">
+	<summary>
+tbDegree control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.CustomValidator2">
+	<summary>
+CustomValidator2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.tbYearGraduated">
+	<summary>
+tbYearGraduated control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.CustomValidator3">
+	<summary>
+CustomValidator3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.fuLicenseFile">
+	<summary>
+fuLicenseFile control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.rfvLicenseFile">
+	<summary>
+rfvLicenseFile control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.tbYearAttendedBasic">
+	<summary>
+tbYearAttendedBasic control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.tbYearAttendedAdv1">
+	<summary>
+tbYearAttendedAdv1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.rblNAETMember">
+	<summary>
+rblNAETMember control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.tbReferred">
+	<summary>
+tbReferred control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.tbAddress">
+	<summary>
+tbAddress control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.CustomValidator5">
+	<summary>
+CustomValidator5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.tbCity">
+	<summary>
+tbCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.CustomValidator6">
+	<summary>
+CustomValidator6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.tbState">
+	<summary>
+tbState control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.CustomValidator7">
+	<summary>
+CustomValidator7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.tbZip">
+	<summary>
+tbZip control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.CustomValidator4">
+	<summary>
+CustomValidator4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.ddlCountry">
+	<summary>
+ddlCountry control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.tbPhone">
+	<summary>
+tbPhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.CustomValidator10">
+	<summary>
+CustomValidator10 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.tbMobile">
+	<summary>
+tbMobile control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.tbFax">
+	<summary>
+tbFax control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.RegExValidator1">
+	<summary>
+RegExValidator1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.tbEmail">
+	<summary>
+tbEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.CustomValidator11">
+	<summary>
+CustomValidator11 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.tbSpecialConsiderations">
+	<summary>
+tbSpecialConsiderations control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.upBasicSeminarPricing">
+	<summary>
+upBasicSeminarPricing control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.rblBasicSeminar">
+	<summary>
+rblBasicSeminar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.fuBasicSeminar">
+	<summary>
+fuBasicSeminar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.upBasicSeminarFileUpload">
+	<summary>
+upBasicSeminarFileUpload control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.rfvBasicSeminarFileUpload">
+	<summary>
+rfvBasicSeminarFileUpload control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.upBasicSeminar">
+	<summary>
+upBasicSeminar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.lblBasicSeminar">
+	<summary>
+lblBasicSeminar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.cblBasicSeminar">
+	<summary>
+cblBasicSeminar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.upAdvancedLevel1Pricing">
+	<summary>
+upAdvancedLevel1Pricing control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.rblAdvancedLevel1">
+	<summary>
+rblAdvancedLevel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.upAdvancedLevel1">
+	<summary>
+upAdvancedLevel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.lblAdvancedLevel1">
+	<summary>
+lblAdvancedLevel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.cblAdvancedLevel1">
+	<summary>
+cblAdvancedLevel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.upAdvancedLevel2AndCaseManage">
+	<summary>
+upAdvancedLevel2AndCaseManage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.lblAdvancedLevel2AndCaseManage">
+	<summary>
+lblAdvancedLevel2AndCaseManage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.cblAdvancedLevel2AndCaseManage">
+	<summary>
+cblAdvancedLevel2AndCaseManage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.upNst">
+	<summary>
+upNst control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.lblNst">
+	<summary>
+lblNst control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.cblNst">
+	<summary>
+cblNst control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.rblPaymentMethod">
+	<summary>
+rblPaymentMethod control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.tbCreditCard">
+	<summary>
+tbCreditCard control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.CustomValidator12">
+	<summary>
+CustomValidator12 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.ddlExpDateMonth">
+	<summary>
+ddlExpDateMonth control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.ddlExpDateYear">
+	<summary>
+ddlExpDateYear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.tbCCV">
+	<summary>
+tbCCV control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.CustomValidator13">
+	<summary>
+CustomValidator13 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.upTotal">
+	<summary>
+upTotal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.lblTotal">
+	<summary>
+lblTotal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.lblErr">
+	<summary>
+lblErr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.validationSummary">
+	<summary>
+validationSummary control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrationForm.tbDoctorKey">
+	<summary>
+tbDoctorKey control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.Login.txtUsername">
+	<summary>
+txtUsername control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.Login.txtPassword">
+	<summary>
+txtPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.Login.lblErr">
+	<summary>
+lblErr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.Login.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarPaymentDetail.AdminMenu">
+	<summary>
+AdminMenu control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarPaymentDetail.lblStudentAgreementFormError">
+	<summary>
+lblStudentAgreementFormError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarPaymentDetail.FormView1">
+	<summary>
+FormView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarPaymentDetail.rptSeminars">
+	<summary>
+rptSeminars control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.Site1.head">
+	<summary>
+head control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.Site1.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.Site1.CtlHeader1">
+	<summary>
+CtlHeader1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.Site1.ContentPlaceHolderContent">
+	<summary>
+ContentPlaceHolderContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.Site1.CtlFooter1">
+	<summary>
+CtlFooter1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.ScriptManager">
+	<summary>
+ScriptManager control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.tbfName">
+	<summary>
+tbfName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.CustomValidator1">
+	<summary>
+CustomValidator1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.tblName">
+	<summary>
+tblName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.CustomValidator8">
+	<summary>
+CustomValidator8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.tbDegree">
+	<summary>
+tbDegree control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.CustomValidator2">
+	<summary>
+CustomValidator2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.tbYearGraduated">
+	<summary>
+tbYearGraduated control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.CustomValidator3">
+	<summary>
+CustomValidator3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.fuLicenseFile">
+	<summary>
+fuLicenseFile control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.rfvLicenseFile">
+	<summary>
+rfvLicenseFile control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.tbYearAttendedBasic">
+	<summary>
+tbYearAttendedBasic control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.tbYearAttendedAdv1">
+	<summary>
+tbYearAttendedAdv1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.rblNAETMember">
+	<summary>
+rblNAETMember control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.tbReferred">
+	<summary>
+tbReferred control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.tbAddress">
+	<summary>
+tbAddress control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.CustomValidator5">
+	<summary>
+CustomValidator5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.tbCity">
+	<summary>
+tbCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.CustomValidator6">
+	<summary>
+CustomValidator6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.tbState">
+	<summary>
+tbState control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.CustomValidator7">
+	<summary>
+CustomValidator7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.tbZip">
+	<summary>
+tbZip control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.CustomValidator4">
+	<summary>
+CustomValidator4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.ddlCountry">
+	<summary>
+ddlCountry control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.tbPhone">
+	<summary>
+tbPhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.CustomValidator10">
+	<summary>
+CustomValidator10 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.tbMobile">
+	<summary>
+tbMobile control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.tbFax">
+	<summary>
+tbFax control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.RegExValidator1">
+	<summary>
+RegExValidator1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.tbEmail">
+	<summary>
+tbEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.CustomValidator11">
+	<summary>
+CustomValidator11 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.tbSpecialConsiderations">
+	<summary>
+tbSpecialConsiderations control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.upBasicSeminarPricing">
+	<summary>
+upBasicSeminarPricing control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.rblBasicSeminar">
+	<summary>
+rblBasicSeminar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.fuBasicSeminar">
+	<summary>
+fuBasicSeminar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.upBasicSeminarFileUpload">
+	<summary>
+upBasicSeminarFileUpload control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.rfvBasicSeminarFileUpload">
+	<summary>
+rfvBasicSeminarFileUpload control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.upBasicSeminar">
+	<summary>
+upBasicSeminar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.lblBasicSeminar">
+	<summary>
+lblBasicSeminar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.cblBasicSeminar">
+	<summary>
+cblBasicSeminar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.upAdvancedLevel1Pricing">
+	<summary>
+upAdvancedLevel1Pricing control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.rblAdvancedLevel1">
+	<summary>
+rblAdvancedLevel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.upAdvancedLevel1">
+	<summary>
+upAdvancedLevel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.lblAdvancedLevel1">
+	<summary>
+lblAdvancedLevel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.cblAdvancedLevel1">
+	<summary>
+cblAdvancedLevel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.upAdvancedLevel2AndCaseManage">
+	<summary>
+upAdvancedLevel2AndCaseManage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.lblAdvancedLevel2AndCaseManage">
+	<summary>
+lblAdvancedLevel2AndCaseManage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.cblAdvancedLevel2AndCaseManage">
+	<summary>
+cblAdvancedLevel2AndCaseManage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.upNst">
+	<summary>
+upNst control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.lblNst">
+	<summary>
+lblNst control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.cblNst">
+	<summary>
+cblNst control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.rblPaymentMethod">
+	<summary>
+rblPaymentMethod control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.tbCreditCard">
+	<summary>
+tbCreditCard control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.CustomValidator12">
+	<summary>
+CustomValidator12 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.ddlExpDateMonth">
+	<summary>
+ddlExpDateMonth control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.ddlExpDateYear">
+	<summary>
+ddlExpDateYear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.tbCCV">
+	<summary>
+tbCCV control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.upTotal">
+	<summary>
+upTotal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.lblTotal">
+	<summary>
+lblTotal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.lblErr">
+	<summary>
+lblErr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.validationSummary">
+	<summary>
+validationSummary control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminSeminarRegistrationForm.tbDoctorKey">
+	<summary>
+tbDoctorKey control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminMenu.AdminMenu">
+	<summary>
+AdminMenu control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminMenu.btnListPayments">
+	<summary>
+btnListPayments control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminMenu.btnListCourses">
+	<summary>
+btnListCourses control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.AdminMenu.btnRegForm">
+	<summary>
+btnRegForm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm._default1.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarPaymentList.AdminMenu">
+	<summary>
+AdminMenu control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarPaymentList.ddlStatus">
+	<summary>
+ddlStatus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarPaymentList.lblStartDate">
+	<summary>
+lblStartDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarPaymentList.ImageButton1">
+	<summary>
+ImageButton1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarPaymentList.Cal1">
+	<summary>
+Cal1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarPaymentList.lblEndDate">
+	<summary>
+lblEndDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarPaymentList.ImageButton2">
+	<summary>
+ImageButton2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarPaymentList.Cal2">
+	<summary>
+Cal2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarPaymentList.btnDateRange">
+	<summary>
+btnDateRange control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarPaymentList.lblErr">
+	<summary>
+lblErr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarPaymentList.GridView1">
+	<summary>
+GridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrantList.ScriptManager">
+	<summary>
+ScriptManager control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrantList.AdminMenu">
+	<summary>
+AdminMenu control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrantList.lnkMarkAllUnapproved">
+	<summary>
+lnkMarkAllUnapproved control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrantList.lnkMarkAllApproved">
+	<summary>
+lnkMarkAllApproved control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrantList.lnkMarkAllAttended">
+	<summary>
+lnkMarkAllAttended control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrantList.btnUpdateBulk">
+	<summary>
+btnUpdateBulk control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrantList.ddlCourseType">
+	<summary>
+ddlCourseType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrantList.upDdlCourseDate">
+	<summary>
+upDdlCourseDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrantList.ddlCourseDate">
+	<summary>
+ddlCourseDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrantList.upDdlRegistrantStatusFilter">
+	<summary>
+upDdlRegistrantStatusFilter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrantList.ddlRegistrantStatusFilter">
+	<summary>
+ddlRegistrantStatusFilter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrantList.btnExportExcel">
+	<summary>
+btnExportExcel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrantList.upRegistrantList">
+	<summary>
+upRegistrantList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrantList.gvCourseRegistrants">
+	<summary>
+gvCourseRegistrants control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrantEdit.ScriptManager">
+	<summary>
+ScriptManager control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrantEdit.AdminMenu">
+	<summary>
+AdminMenu control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrantEdit.fvSeminarRegistration">
+	<summary>
+fvSeminarRegistration control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrantEdit.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrantEdit.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.ctlHeader.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:SeminarRegistrationForm.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SeminarRegistrationForm.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:SeminarRegistrationForm.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

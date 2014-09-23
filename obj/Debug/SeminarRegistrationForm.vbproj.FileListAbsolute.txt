@@ -1,0 +1,13 @@
+C:\inetpub\sites\Naet\www.naet.com_professionals_seminarregistration\bin\SeminarRegistrationForm.dll.config
+C:\inetpub\sites\Naet\www.naet.com_professionals_seminarregistration\bin\SeminarRegistrationForm.dll
+C:\inetpub\sites\Naet\www.naet.com_professionals_seminarregistration\bin\SeminarRegistrationForm.pdb
+C:\inetpub\sites\Naet\www.naet.com_professionals_seminarregistration\bin\SeminarRegistrationForm.xml
+C:\inetpub\sites\Naet\www.naet.com_professionals_seminarregistration\bin\Elmah.dll
+C:\inetpub\sites\Naet\www.naet.com_professionals_seminarregistration\obj\Debug\SeminarRegistrationForm.Resources.resources
+C:\inetpub\sites\Naet\www.naet.com_professionals_seminarregistration\obj\Debug\SeminarRegistrationForm.vbproj.GenerateResource.Cache
+C:\inetpub\sites\Naet\www.naet.com_professionals_seminarregistration\obj\Debug\SeminarRegistrationForm.dll
+C:\inetpub\sites\Naet\www.naet.com_professionals_seminarregistration\obj\Debug\SeminarRegistrationForm.xml
+C:\inetpub\sites\Naet\www.naet.com_professionals_seminarregistration\obj\Debug\SeminarRegistrationForm.pdb
+C:\inetpub\sites\Naet\www.naet.com_professionals_seminarregistration\obj\Debug\SeminarRegistrationForm.vbprojResolveAssemblyReference.cache
+C:\inetpub\sites\Naet\www.naet.com_professionals_seminarregistration\bin\Newtonsoft.Json.dll
+C:\inetpub\sites\Naet\www.naet.com_professionals_seminarregistration\bin\Newtonsoft.Json.xml

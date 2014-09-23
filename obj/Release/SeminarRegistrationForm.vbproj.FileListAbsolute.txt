@@ -1,0 +1,11 @@
+C:\inetpub\sites\Naet\www.naet.com_professionals_seminarregistration\bin\SeminarRegistrationForm.dll.config
+C:\inetpub\sites\Naet\www.naet.com_professionals_seminarregistration\bin\SeminarRegistrationForm.dll
+C:\inetpub\sites\Naet\www.naet.com_professionals_seminarregistration\bin\SeminarRegistrationForm.pdb
+C:\inetpub\sites\Naet\www.naet.com_professionals_seminarregistration\bin\SeminarRegistrationForm.xml
+C:\inetpub\sites\Naet\www.naet.com_professionals_seminarregistration\bin\Elmah.dll
+C:\inetpub\sites\Naet\www.naet.com_professionals_seminarregistration\obj\Release\SeminarRegistrationForm.Resources.resources
+C:\inetpub\sites\Naet\www.naet.com_professionals_seminarregistration\obj\Release\SeminarRegistrationForm.vbproj.GenerateResource.Cache
+C:\inetpub\sites\Naet\www.naet.com_professionals_seminarregistration\obj\Release\SeminarRegistrationForm.dll
+C:\inetpub\sites\Naet\www.naet.com_professionals_seminarregistration\obj\Release\SeminarRegistrationForm.xml
+C:\inetpub\sites\Naet\www.naet.com_professionals_seminarregistration\obj\Release\SeminarRegistrationForm.pdb
+C:\inetpub\sites\Naet\www.naet.com_professionals_seminarregistration\obj\Release\SeminarRegistrationForm.vbprojResolveAssemblyReference.cache

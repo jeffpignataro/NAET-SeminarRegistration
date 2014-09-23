@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5F188BFE-4A9E-4303-858D-3C310F481911}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SeminarRegistrationForm</RootNamespace>
+    <AssemblyName>SeminarRegistrationForm</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>SeminarRegistrationForm.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>SeminarRegistrationForm.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Elmah, Version=1.2.14706.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\elmah.corelibrary.1.2.2\lib\Elmah.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\Newtonsoft.Json.6.0.2\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="payflow_dotNET, Version=4.2.1.0, Culture=neutral, PublicKeyToken=14aa1e8d77f2a97c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\Payflow SDK for .NET\payflow_dotNET.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\SeminarRegistrantEdit.aspx" />
+    <Content Include="Admin\SeminarRegistrationForm.aspx" />
+    <Content Include="App_Readme\Elmah.txt" />
+    <Content Include="images\bottom-bg.png" />
+    <Content Include="images\color.png" />
+    <Content Include="images\Copy of BottomBorder.jpg" />
+    <Content Include="images\Copy of BottomLeftCorner.jpg" />
+    <Content Include="images\Copy of BottomRightCorner.jpg" />
+    <Content Include="images\Copy of calicon.gif" />
+    <Content Include="images\Copy of homebackground.jpg" />
+    <Content Include="images\Copy of homebackground2.jpg" />
+    <Content Include="images\Copy of hourglass.gif" />
+    <Content Include="images\Copy of LeftBorder.jpg" />
+    <Content Include="images\Copy of RightBorder.jpg" />
+    <Content Include="images\Copy of spacer.gif" />
+    <Content Include="images\Copy of topleft2.gif" />
+    <Content Include="images\Copy of topleft2.jpg" />
+    <Content Include="images\Copy of topleft2orig.jpg" />
+    <Content Include="images\Copy of topright2.gif" />
+    <Content Include="images\Copy of topright2.jpg" />
+    <Content Include="images\Copy of topright2Orig.jpg" />
+    <Content Include="images\excel-export.png" />
+    <Content Include="images\nav-bg.png" />
+    <Content Include="Scripts\handlebars-v1.3.0.js" />
+    <Content Include="usercontrols\AdminMenu.ascx" />
+    <Content Include="Admin\Default.aspx" />
+    <Content Include="Admin\Login.aspx" />
+    <Content Include="Admin\SeminarPaymentDetail.aspx" />
+    <Content Include="Admin\SeminarPaymentList.aspx" />
+    <Content Include="Admin\SeminarRegistrantList.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="ReadmeDev.txt" />
+    <Content Include="Scripts\jquery.maskedinput.min.js" />
+    <Content Include="Scripts\sumCheckboxes.js" />
+    <Content Include="SeminarRegistrationForm.aspx" />
+    <Content Include="SeminarRegistrationSuccess.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\SeminarRegistrantEdit.aspx.designer.vb">
+      <DependentUpon>SeminarRegistrantEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SeminarRegistrantEdit.aspx.vb">
+      <DependentUpon>SeminarRegistrantEdit.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SeminarRegistrationForm.aspx.designer.vb">
+      <DependentUpon>SeminarRegistrationForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SeminarRegistrationForm.aspx.vb">
+      <DependentUpon>SeminarRegistrationForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="common\Doctor.vb" />
+    <Compile Include="common\DoctorLocation.vb" />
+    <Compile Include="common\TypeHelper.vb" />
+    <Compile Include="usercontrols\AdminMenu.ascx.designer.vb">
+      <DependentUpon>AdminMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\AdminMenu.ascx.vb">
+      <DependentUpon>AdminMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminMenu.aspx.designer.vb">
+      <DependentUpon>AdminMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminMenu.aspx.vb">
+      <DependentUpon>AdminMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SeminarPaymentDetail.aspx.designer.vb">
+      <DependentUpon>SeminarPaymentDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SeminarPaymentDetail.aspx.vb">
+      <DependentUpon>SeminarPaymentDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SeminarPaymentList.aspx.designer.vb">
+      <DependentUpon>SeminarPaymentList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SeminarPaymentList.aspx.vb">
+      <DependentUpon>SeminarPaymentList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SeminarRegistrantList.aspx.designer.vb">
+      <DependentUpon>SeminarRegistrantList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SeminarRegistrantList.aspx.vb">
+      <DependentUpon>SeminarRegistrantList.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="common\AuthenticationHelper.vb" />
+    <Compile Include="common\BillingAddress.vb" />
+    <Compile Include="common\ContactAddress.vb" />
+    <Compile Include="common\Course.vb" />
+    <Compile Include="common\EmailHelper.vb" />
+    <Compile Include="common\EnumHelper.vb" />
+    <Compile Include="common\FileHelper.vb" />
+    <Compile Include="common\HttpHelper.vb" />
+    <Compile Include="common\License.vb" />
+    <Compile Include="common\MemberInfo.vb" />
+    <Compile Include="common\Payment.vb" />
+    <Compile Include="common\Registrant.vb" />
+    <Compile Include="common\Seminar.vb" />
+    <Compile Include="common\SeminarRegistration.vb" />
+    <Compile Include="common\SqlHelper.vb" />
+    <Compile Include="common\Transaction.vb" />
+    <Compile Include="Default.aspx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SeminarRegistrationForm.aspx.designer.vb">
+      <DependentUpon>SeminarRegistrationForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SeminarRegistrationForm.aspx.vb">
+      <DependentUpon>SeminarRegistrationForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SeminarRegistrationSuccess.aspx.designer.vb">
+      <DependentUpon>SeminarRegistrationSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SeminarRegistrationSuccess.aspx.vb">
+      <DependentUpon>SeminarRegistrationSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Helpers.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="objData.vb" />
+    <Compile Include="objEmailer.vb" />
+    <Compile Include="style\Site1.Master.designer.vb">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="style\Site1.Master.vb">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\ctlFooter.ascx.designer.vb">
+      <DependentUpon>ctlFooter.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\ctlFooter.ascx.vb">
+      <DependentUpon>ctlFooter.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\ctlHeader.ascx.designer.vb">
+      <DependentUpon>ctlHeader.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\ctlHeader.ascx.vb">
+      <DependentUpon>ctlHeader.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Admin\AdminMenu.aspx" />
+    <Content Include="EmailTemplates\CaseStudyUploadNotice.txt" />
+    <Content Include="EmailTemplates\ResetPW.txt" />
+    <Content Include="images\BottomBorder.jpg" />
+    <Content Include="images\BottomLeftCorner.jpg" />
+    <Content Include="images\BottomRightCorner.jpg" />
+    <Content Include="images\calicon.gif" />
+    <Content Include="images\homebackground.jpg" />
+    <Content Include="images\homebackground2.jpg" />
+    <Content Include="images\hourglass.gif" />
+    <Content Include="images\LeftBorder.jpg" />
+    <Content Include="images\NARFLogo.gif" />
+    <Content Include="images\RightBorder.jpg" />
+    <Content Include="images\spacer.gif" />
+    <Content Include="images\TopBorder.jpg" />
+    <Content Include="images\topleft2.gif" />
+    <Content Include="images\topleft2.jpg" />
+    <Content Include="images\topleft2orig.jpg" />
+    <Content Include="images\TopLeftCorner.jpg" />
+    <Content Include="images\topright2.gif" />
+    <Content Include="images\topright2.jpg" />
+    <Content Include="images\topright2Orig.jpg" />
+    <Content Include="images\TopRightCorner.jpg" />
+    <Content Include="style\Site1.Master" />
+    <Content Include="style\Styles.css" />
+    <Content Include="usercontrols\ctlFooter.ascx" />
+    <Content Include="usercontrols\ctlHeader.ascx" />
+    <Content Include="XMLCountryCodes.xml" />
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50557</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,13 @@
+﻿<br /><br /> 
+Greetings,
+<br /><br /> 
+Recently we received a request to recover a missing login or update the password for the NAET Doctor site associated with this email.  
+<br /><br /> 
+Email: <!--email-->
+<br /><br />
+Login: <!--login-->
+<br /><br /> 
+To reset your password, click this link and follow the instructions:
+<br/>
+<!--link-->
+<br /><br /> 

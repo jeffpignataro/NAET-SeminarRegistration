@@ -1,0 +1,2612 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SymposiumRegistrationForm
+</name>
+</assembly>
+<members>
+<member name="F:SymposiumRegistrationForm.SymPaymentDetail.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label48">
+	<summary>
+Label48 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtTranID">
+	<summary>
+txtTranID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label4">
+	<summary>
+Label4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label32">
+	<summary>
+Label32 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtAcct">
+	<summary>
+txtAcct control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label49">
+	<summary>
+Label49 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.symYear">
+	<summary>
+symYear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label6">
+	<summary>
+Label6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtCFirstname">
+	<summary>
+txtCFirstname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label12">
+	<summary>
+Label12 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtcLastName">
+	<summary>
+txtcLastName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label7">
+	<summary>
+Label7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtcCompany">
+	<summary>
+txtcCompany control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label15">
+	<summary>
+Label15 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtcPhone">
+	<summary>
+txtcPhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label8">
+	<summary>
+Label8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtcAddress">
+	<summary>
+txtcAddress control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label13">
+	<summary>
+Label13 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtcAddress2">
+	<summary>
+txtcAddress2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label11">
+	<summary>
+Label11 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtcEmail">
+	<summary>
+txtcEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label9">
+	<summary>
+Label9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtcCity">
+	<summary>
+txtcCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label14">
+	<summary>
+Label14 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtcState">
+	<summary>
+txtcState control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label10">
+	<summary>
+Label10 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtcZip">
+	<summary>
+txtcZip control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label16">
+	<summary>
+Label16 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtccountry">
+	<summary>
+txtccountry control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label17">
+	<summary>
+Label17 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label18">
+	<summary>
+Label18 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtbFirstname">
+	<summary>
+txtbFirstname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label19">
+	<summary>
+Label19 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtbLastName">
+	<summary>
+txtbLastName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label20">
+	<summary>
+Label20 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtbCompany">
+	<summary>
+txtbCompany control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label21">
+	<summary>
+Label21 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtbPhone">
+	<summary>
+txtbPhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label22">
+	<summary>
+Label22 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtbAddress">
+	<summary>
+txtbAddress control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label23">
+	<summary>
+Label23 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtbAddress2">
+	<summary>
+txtbAddress2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label28">
+	<summary>
+Label28 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtbEmail">
+	<summary>
+txtbEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label24">
+	<summary>
+Label24 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtbCity">
+	<summary>
+txtbCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label25">
+	<summary>
+Label25 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtbstate">
+	<summary>
+txtbstate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label26">
+	<summary>
+Label26 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtbZip">
+	<summary>
+txtbZip control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label27">
+	<summary>
+Label27 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtbcountry">
+	<summary>
+txtbcountry control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label5">
+	<summary>
+Label5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtCardType">
+	<summary>
+txtCardType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label2">
+	<summary>
+Label2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtCardExpMo">
+	<summary>
+txtCardExpMo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label3">
+	<summary>
+Label3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtCardExpYear">
+	<summary>
+txtCardExpYear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label29">
+	<summary>
+Label29 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtCardNum">
+	<summary>
+txtCardNum control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label30">
+	<summary>
+Label30 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtcsc">
+	<summary>
+txtcsc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label46">
+	<summary>
+Label46 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtAuthCode">
+	<summary>
+txtAuthCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label47">
+	<summary>
+Label47 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtpnref">
+	<summary>
+txtpnref control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtResponseStr">
+	<summary>
+txtResponseStr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label33">
+	<summary>
+Label33 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label31">
+	<summary>
+Label31 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label34">
+	<summary>
+Label34 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label35">
+	<summary>
+Label35 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtInvc1">
+	<summary>
+txtInvc1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtdesc1">
+	<summary>
+txtdesc1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtAmt1">
+	<summary>
+txtAmt1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label36">
+	<summary>
+Label36 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtInvc2">
+	<summary>
+txtInvc2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtdesc2">
+	<summary>
+txtdesc2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtAmt2">
+	<summary>
+txtAmt2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label37">
+	<summary>
+Label37 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtInvc3">
+	<summary>
+txtInvc3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtdesc3">
+	<summary>
+txtdesc3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtAmt3">
+	<summary>
+txtAmt3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label38">
+	<summary>
+Label38 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtInvc4">
+	<summary>
+txtInvc4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtdesc4">
+	<summary>
+txtdesc4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtAmt4">
+	<summary>
+txtAmt4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label39">
+	<summary>
+Label39 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtInvc5">
+	<summary>
+txtInvc5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtdesc5">
+	<summary>
+txtdesc5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtAmt5">
+	<summary>
+txtAmt5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label40">
+	<summary>
+Label40 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtInvc6">
+	<summary>
+txtInvc6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtdesc6">
+	<summary>
+txtdesc6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtAmt6">
+	<summary>
+txtAmt6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label41">
+	<summary>
+Label41 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtInvc7">
+	<summary>
+txtInvc7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtdesc7">
+	<summary>
+txtdesc7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtAmt7">
+	<summary>
+txtAmt7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label42">
+	<summary>
+Label42 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtInvc8">
+	<summary>
+txtInvc8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtdesc8">
+	<summary>
+txtdesc8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtAmt8">
+	<summary>
+txtAmt8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label43">
+	<summary>
+Label43 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtInvc9">
+	<summary>
+txtInvc9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtdesc9">
+	<summary>
+txtdesc9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtAmt9">
+	<summary>
+txtAmt9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label44">
+	<summary>
+Label44 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtInvc10">
+	<summary>
+txtInvc10 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtdesc10">
+	<summary>
+txtdesc10 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtAmt10">
+	<summary>
+txtAmt10 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.Label45">
+	<summary>
+Label45 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPaymentDetail.txtPaymentTotal">
+	<summary>
+txtPaymentTotal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:SymposiumRegistrationForm.SymPaymentDetail">
+	<summary>
+SymPaymentDetail class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.ScriptManager">
+	<summary>
+ScriptManager control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.UpdatePanel">
+	<summary>
+UpdatePanel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.Label46">
+	<summary>
+Label46 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.chkAttendClass1">
+	<summary>
+chkAttendClass1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.chkAttendClass2">
+	<summary>
+chkAttendClass2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.chkAttendClass3">
+	<summary>
+chkAttendClass3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.chkAttendClass4">
+	<summary>
+chkAttendClass4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.chkAttendClass5">
+	<summary>
+chkAttendClass5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.rdbSympOneDayFri">
+	<summary>
+rdbSympOneDayFri control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.rdbSympOneDaySat">
+	<summary>
+rdbSympOneDaySat control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.chkAttendClass7">
+	<summary>
+chkAttendClass7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.chkAttendClass8">
+	<summary>
+chkAttendClass8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.lblmealselection">
+	<summary>
+lblmealselection control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.rdbMealVeg">
+	<summary>
+rdbMealVeg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.rdbMealNonVeg">
+	<summary>
+rdbMealNonVeg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.rdbMealGlutenFree">
+	<summary>
+rdbMealGlutenFree control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.rdbMealKosher">
+	<summary>
+rdbMealKosher control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.ltTotal">
+	<summary>
+ltTotal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.divID">
+	<summary>
+divID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.Label4">
+	<summary>
+Label4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.HdnDocKey">
+	<summary>
+HdnDocKey control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.HdnMasterDocKey">
+	<summary>
+HdnMasterDocKey control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.Label32">
+	<summary>
+Label32 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.txtAcct">
+	<summary>
+txtAcct control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.Label6">
+	<summary>
+Label6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.txtCFirstname">
+	<summary>
+txtCFirstname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.Label12">
+	<summary>
+Label12 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.txtcLastName">
+	<summary>
+txtcLastName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.Label7">
+	<summary>
+Label7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.txtcCompany">
+	<summary>
+txtcCompany control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.Label15">
+	<summary>
+Label15 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.txtcPhone">
+	<summary>
+txtcPhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.Label8">
+	<summary>
+Label8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.txtcAddress">
+	<summary>
+txtcAddress control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.Label13">
+	<summary>
+Label13 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.txtcAddress2">
+	<summary>
+txtcAddress2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.Label11">
+	<summary>
+Label11 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.txtcEmail">
+	<summary>
+txtcEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.Label9">
+	<summary>
+Label9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.txtcCity">
+	<summary>
+txtcCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.Label14">
+	<summary>
+Label14 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.ddlcState">
+	<summary>
+ddlcState control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.Label10">
+	<summary>
+Label10 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.txtcZip">
+	<summary>
+txtcZip control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.Label16">
+	<summary>
+Label16 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.ddlccountry">
+	<summary>
+ddlccountry control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.hdnCountry">
+	<summary>
+hdnCountry control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.Label17">
+	<summary>
+Label17 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.chkSameAs">
+	<summary>
+chkSameAs control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.Label18">
+	<summary>
+Label18 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.txtbFirstname">
+	<summary>
+txtbFirstname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.Label19">
+	<summary>
+Label19 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.txtbLastName">
+	<summary>
+txtbLastName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.Label20">
+	<summary>
+Label20 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.txtbCompany">
+	<summary>
+txtbCompany control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.Label21">
+	<summary>
+Label21 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.txtbPhone">
+	<summary>
+txtbPhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.Label22">
+	<summary>
+Label22 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.txtbAddress">
+	<summary>
+txtbAddress control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.Label23">
+	<summary>
+Label23 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.txtbAddress2">
+	<summary>
+txtbAddress2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.Label28">
+	<summary>
+Label28 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.txtbEmail">
+	<summary>
+txtbEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.Label24">
+	<summary>
+Label24 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.txtbCity">
+	<summary>
+txtbCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.Label25">
+	<summary>
+Label25 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.ddlbState">
+	<summary>
+ddlbState control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.Label26">
+	<summary>
+Label26 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.txtbZip">
+	<summary>
+txtbZip control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.Label27">
+	<summary>
+Label27 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.ddlbcountry">
+	<summary>
+ddlbcountry control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.Label5">
+	<summary>
+Label5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.ddlCardType">
+	<summary>
+ddlCardType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.Label29">
+	<summary>
+Label29 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.txtCardNum">
+	<summary>
+txtCardNum control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.Label2">
+	<summary>
+Label2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.ddlCardExpMo">
+	<summary>
+ddlCardExpMo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.Label45">
+	<summary>
+Label45 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.txtPaymentTotal">
+	<summary>
+txtPaymentTotal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.Label3">
+	<summary>
+Label3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.ddlCardExpYear">
+	<summary>
+ddlCardExpYear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.lblDonations">
+	<summary>
+lblDonations control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.lbltaxDeduct">
+	<summary>
+lbltaxDeduct control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.txtDonations">
+	<summary>
+txtDonations control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.Label30">
+	<summary>
+Label30 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.txtcsc">
+	<summary>
+txtcsc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.lblTotal">
+	<summary>
+lblTotal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.txtTotal">
+	<summary>
+txtTotal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.BtnVerify">
+	<summary>
+BtnVerify control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymPayment.HdnSessionVars">
+	<summary>
+HdnSessionVars control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.ScriptManager">
+	<summary>
+ScriptManager control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.tbfName">
+	<summary>
+tbfName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.CustomValidator1">
+	<summary>
+CustomValidator1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.tblName">
+	<summary>
+tblName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.CustomValidator8">
+	<summary>
+CustomValidator8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.tbDegree">
+	<summary>
+tbDegree control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.CustomValidator2">
+	<summary>
+CustomValidator2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.tbYearGraduated">
+	<summary>
+tbYearGraduated control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.CustomValidator3">
+	<summary>
+CustomValidator3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.fuLicenseFile">
+	<summary>
+fuLicenseFile control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.rfvLicenseFile">
+	<summary>
+rfvLicenseFile control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.tbYearAttendedBasic">
+	<summary>
+tbYearAttendedBasic control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.tbYearAttendedAdv1">
+	<summary>
+tbYearAttendedAdv1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.rblNAETMember">
+	<summary>
+rblNAETMember control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.tbReferred">
+	<summary>
+tbReferred control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.tbAddress">
+	<summary>
+tbAddress control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.CustomValidator5">
+	<summary>
+CustomValidator5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.tbCity">
+	<summary>
+tbCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.CustomValidator6">
+	<summary>
+CustomValidator6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.tbState">
+	<summary>
+tbState control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.CustomValidator7">
+	<summary>
+CustomValidator7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.tbZip">
+	<summary>
+tbZip control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.ddlCountry">
+	<summary>
+ddlCountry control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.tbPhone">
+	<summary>
+tbPhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.CustomValidator10">
+	<summary>
+CustomValidator10 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.tbMobile">
+	<summary>
+tbMobile control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.tbFax">
+	<summary>
+tbFax control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.RegExValidator1">
+	<summary>
+RegExValidator1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.tbEmail">
+	<summary>
+tbEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.CustomValidator11">
+	<summary>
+CustomValidator11 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.tbSpecialConsiderations">
+	<summary>
+tbSpecialConsiderations control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.upBasicSeminarPricing">
+	<summary>
+upBasicSeminarPricing control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.rblBasicSeminar">
+	<summary>
+rblBasicSeminar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.fuBasicSeminar">
+	<summary>
+fuBasicSeminar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.upBasicSeminarFileUpload">
+	<summary>
+upBasicSeminarFileUpload control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.rfvBasicSeminarFileUpload">
+	<summary>
+rfvBasicSeminarFileUpload control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.upBasicSeminar">
+	<summary>
+upBasicSeminar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.cblBasicSeminar">
+	<summary>
+cblBasicSeminar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.upAdvancedLevel1Pricing">
+	<summary>
+upAdvancedLevel1Pricing control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.rblAdvancedLevel1">
+	<summary>
+rblAdvancedLevel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.upAdvancedLevel1">
+	<summary>
+upAdvancedLevel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.cblAdvancedLevel1">
+	<summary>
+cblAdvancedLevel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.upAdvancedLevel2AndCaseManage">
+	<summary>
+upAdvancedLevel2AndCaseManage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.cblAdvancedLevel2AndCaseManage">
+	<summary>
+cblAdvancedLevel2AndCaseManage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.upAdvancedLevel2">
+	<summary>
+upAdvancedLevel2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.cblAdvancedLevel2">
+	<summary>
+cblAdvancedLevel2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.upNst">
+	<summary>
+upNst control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.cblNst">
+	<summary>
+cblNst control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.rblPaymentMethod">
+	<summary>
+rblPaymentMethod control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.tbCreditCard">
+	<summary>
+tbCreditCard control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.CustomValidator12">
+	<summary>
+CustomValidator12 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.ddlExpDateMonth">
+	<summary>
+ddlExpDateMonth control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.ddlExpDateYear">
+	<summary>
+ddlExpDateYear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.tbCCV">
+	<summary>
+tbCCV control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.CustomValidator13">
+	<summary>
+CustomValidator13 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.upTotal">
+	<summary>
+upTotal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.lblTotal">
+	<summary>
+lblTotal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.lblErr">
+	<summary>
+lblErr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationForm.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.AdminMenu.btnListPayments">
+	<summary>
+btnListPayments control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:SymposiumRegistrationForm.AdminMenu">
+	<summary>
+AdminMenu class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymLogin.Label2">
+	<summary>
+Label2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymLogin.pnlLogin">
+	<summary>
+pnlLogin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymLogin.txtLogin">
+	<summary>
+txtLogin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymLogin.txtPassword">
+	<summary>
+txtPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymLogin.lblMsgLogin">
+	<summary>
+lblMsgLogin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymLogin.btnLogin">
+	<summary>
+btnLogin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymLogin.lbForgotLogin">
+	<summary>
+lbForgotLogin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymLogin.pnlRecover">
+	<summary>
+pnlRecover control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymLogin.txtMatchEmail">
+	<summary>
+txtMatchEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymLogin.txtMatchLogin">
+	<summary>
+txtMatchLogin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymLogin.lbRecoverLogin">
+	<summary>
+lbRecoverLogin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymLogin.lblMsgRecover">
+	<summary>
+lblMsgRecover control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:SymposiumRegistrationForm.SymLogin">
+	<summary>
+SymLogin class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymConfirm.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymConfirm.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymConfirm.Label2">
+	<summary>
+Label2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymConfirm.lblContact">
+	<summary>
+lblContact control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymConfirm.lblBilling">
+	<summary>
+lblBilling control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymConfirm.Label5">
+	<summary>
+Label5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymConfirm.lblPaymentCardInfo">
+	<summary>
+lblPaymentCardInfo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymConfirm.Label3">
+	<summary>
+Label3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymConfirm.lblacct">
+	<summary>
+lblacct control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymConfirm.Label9">
+	<summary>
+Label9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymConfirm.lblTotalAmount">
+	<summary>
+lblTotalAmount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymConfirm.BtnSubmit">
+	<summary>
+BtnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymConfirm.hdnClientEmail">
+	<summary>
+hdnClientEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymConfirm.hdnDocKey">
+	<summary>
+hdnDocKey control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymConfirm.hdnTotalAmount">
+	<summary>
+hdnTotalAmount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.ctlHeader.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymListPayments.lblFromDatetext">
+	<summary>
+lblFromDatetext control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymListPayments.lblfromdate">
+	<summary>
+lblfromdate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymListPayments.Cal1">
+	<summary>
+Cal1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymListPayments.ImageButton1">
+	<summary>
+ImageButton1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymListPayments.lbltodatetxt">
+	<summary>
+lbltodatetxt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymListPayments.lbltodate">
+	<summary>
+lbltodate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymListPayments.Cal2">
+	<summary>
+Cal2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymListPayments.ImageButton2">
+	<summary>
+ImageButton2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymListPayments.txtpaymentid">
+	<summary>
+txtpaymentid control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymListPayments.btnRefresh">
+	<summary>
+btnRefresh control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymListPayments.GridView1">
+	<summary>
+GridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymListPayments.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:SymposiumRegistrationForm.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SymposiumRegistrationForm.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:SymposiumRegistrationForm.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:SymposiumRegistrationForm.Site1.head">
+	<summary>
+head control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.Site1.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.Site1.CtlHeader1">
+	<summary>
+CtlHeader1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.Site1.ContentPlaceHolderContent">
+	<summary>
+ContentPlaceHolderContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.Site1.CtlFooter1">
+	<summary>
+CtlFooter1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:SymposiumRegistrationForm._Default">
+	<summary>
+_Default class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SeminarRegistrationSuccess.ScriptManager">
+	<summary>
+ScriptManager control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymThankYou.Label4">
+	<summary>
+Label4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymThankYou.lblNoBack">
+	<summary>
+lblNoBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymThankYou.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymThankYou.txtResult">
+	<summary>
+txtResult control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymThankYou.Label2">
+	<summary>
+Label2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymThankYou.txtAuthCode">
+	<summary>
+txtAuthCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymThankYou.Label3">
+	<summary>
+Label3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SymposiumRegistrationForm.SymThankYou.txtTransID">
+	<summary>
+txtTransID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

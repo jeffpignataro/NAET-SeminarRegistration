@@ -1,0 +1,2 @@
+<%@ Page Language="vb" AutoEventWireup="false" MasterPageFile="~/style/Site1.Master" Codebehind="Default.aspx.vb" Inherits="SeminarRegistrationForm._Default" Title="Payments Admin Login" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolderContent" runat="server"></asp:Content>

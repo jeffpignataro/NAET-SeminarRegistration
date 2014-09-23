@@ -1,0 +1,27 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site1.master.vb" Inherits="SeminarRegistrationForm.Site1" %>
+
+<%@ Register Src="../usercontrols/ctlHeader.ascx" TagName="ctlHeader" TagPrefix="uc1" %>
+<%@ Register Src="../usercontrols/ctlFooter.ascx" TagName="ctlFooter" TagPrefix="uc2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>NAET Seminar Registration</title>
+    <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+    <link href="../style/Styles.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="ContentWrapper" align="center">
+            <uc1:ctlHeader ID="CtlHeader1" runat="server"></uc1:ctlHeader>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolderContent" runat="server"></asp:ContentPlaceHolder>
+            <uc2:ctlFooter ID="CtlFooter1" runat="server"></uc2:ctlFooter>
+        </div>
+    </form>
+</body>
+</html>

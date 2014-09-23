@@ -1,0 +1,9 @@
+C:\Users\Todd\Documents\Visual Studio 2005\Projects\web\SymposiumRegistrationForm\bin\SymposiumRegistrationForm.dll
+C:\Users\Todd\Documents\Visual Studio 2005\Projects\web\SymposiumRegistrationForm\bin\SymposiumRegistrationForm.pdb
+C:\Users\Todd\Documents\Visual Studio 2005\Projects\web\SymposiumRegistrationForm\bin\SymposiumRegistrationForm.xml
+C:\Users\Todd\Documents\Visual Studio 2005\Projects\web\SymposiumRegistrationForm\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Todd\Documents\Visual Studio 2005\Projects\web\SymposiumRegistrationForm\obj\Release\SymposiumRegistrationForm.Resources.resources
+C:\Users\Todd\Documents\Visual Studio 2005\Projects\web\SymposiumRegistrationForm\obj\Release\SymposiumRegistrationForm.vbproj.GenerateResource.Cache
+C:\Users\Todd\Documents\Visual Studio 2005\Projects\web\SymposiumRegistrationForm\obj\Release\SymposiumRegistrationForm.dll
+C:\Users\Todd\Documents\Visual Studio 2005\Projects\web\SymposiumRegistrationForm\obj\Release\SymposiumRegistrationForm.xml
+C:\Users\Todd\Documents\Visual Studio 2005\Projects\web\SymposiumRegistrationForm\obj\Release\SymposiumRegistrationForm.pdb

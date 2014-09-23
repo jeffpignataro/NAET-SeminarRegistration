@@ -1,0 +1,17 @@
+C:\ProjectFiles\SymposiumRegistration\devweb\bin\SymposiumRegistrationForm.dll
+C:\ProjectFiles\SymposiumRegistration\devweb\bin\SymposiumRegistrationForm.pdb
+C:\ProjectFiles\SymposiumRegistration\devweb\bin\SymposiumRegistrationForm.xml
+C:\ProjectFiles\SymposiumRegistration\devweb\obj\Release\SymposiumRegistrationForm.Resources.resources
+C:\ProjectFiles\SymposiumRegistration\devweb\obj\Release\SymposiumRegistrationForm.vbproj.GenerateResource.Cache
+C:\ProjectFiles\SymposiumRegistration\devweb\obj\Release\SymposiumRegistrationForm.dll
+C:\ProjectFiles\SymposiumRegistration\devweb\obj\Release\SymposiumRegistrationForm.xml
+C:\ProjectFiles\SymposiumRegistration\devweb\obj\Release\SymposiumRegistrationForm.pdb
+C:\inetpub\clientsites\SymposiumRegistration\web\bin\SymposiumRegistrationForm.dll
+C:\inetpub\clientsites\SymposiumRegistration\web\bin\SymposiumRegistrationForm.pdb
+C:\inetpub\clientsites\SymposiumRegistration\web\bin\SymposiumRegistrationForm.xml
+C:\inetpub\clientsites\SymposiumRegistration\web\bin\Elmah.dll
+C:\inetpub\clientsites\SymposiumRegistration\web\obj\Release\SymposiumRegistrationForm.Resources.resources
+C:\inetpub\clientsites\SymposiumRegistration\web\obj\Release\SymposiumRegistrationForm.vbproj.GenerateResource.Cache
+C:\inetpub\clientsites\SymposiumRegistration\web\obj\Release\SymposiumRegistrationForm.dll
+C:\inetpub\clientsites\SymposiumRegistration\web\obj\Release\SymposiumRegistrationForm.xml
+C:\inetpub\clientsites\SymposiumRegistration\web\obj\Release\SymposiumRegistrationForm.pdb
