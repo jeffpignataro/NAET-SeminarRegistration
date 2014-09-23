@@ -372,4 +372,13 @@ Public Class SqlHelper
         sqlParameterCollection.Add(New SqlParameter("@StudentAgreementFormFileType", seminarRegistration.StudentAgreementFormFileType))
         Return sqlParameterCollection
     End Function
+
+    Public Shared Function FindDoctorNameParameters(ByVal lastname As String, ByVal firstname As String) As List(Of SqlParameter)
+        '@LastName varchar(50)
+        '@FirstName varchar(50)
+        Dim sqlParameterCollection As New List(Of SqlParameter)
+        sqlParameterCollection.Add(New SqlParameter("@LastName", lastname))
+        sqlParameterCollection.Add(New SqlParameter("@FirstName", firstname))
+        Return sqlParameterCollection
+    End Function
 End Class

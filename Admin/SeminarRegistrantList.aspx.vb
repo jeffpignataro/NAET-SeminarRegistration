@@ -135,6 +135,10 @@ Public Class SeminarRegistrantList
         registrant.UpdateRegistrant(seminarRegistrantId, ddlRegistrantStatusId.SelectedValue)
         registrant.AddRegistrantStatusAudit(seminarRegistrantId, ddlRegistrantStatusId.SelectedValue, Session("username"), Now)
         If (ddlRegistrantStatusId.SelectedValue = EnumHelper.RegistrantStatus.Attended) Then
+            If (doctorId = 0) Then
+                'Doctor needs to be added to the database
+
+            End If
             Doctor.AddAttendeeAddRegistration(doctorId, seminarId)
         End If
     End Sub
@@ -287,8 +291,7 @@ Public Class SeminarRegistrantList
         Response.Output.Write(tw.ToString())
         Response.End()
     End Sub
-
-
+    
     Public Overrides Sub VerifyRenderingInServerForm(control As Control)
         'For the excel RenderControl
     End Sub

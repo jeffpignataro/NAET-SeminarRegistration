@@ -154,4 +154,12 @@ Public Class Doctor
         Return mapDoctor
     End Function
 
+    'This function is intended for trying to determine if a doctor has already been added to the doctor database before adding them automaticallly.
+    Public Function FindDoctorByName(ByVal doctorLastName As String, ByVal doctorFirstName As String) As List(Of Doctor)
+        Dim parameters As List(Of SqlParameter) = SqlHelper.FindDoctorNameParameters(doctorLastName, doctorFirstName)
+        Dim dataTable As DataTable = SqlHelper.ExecuteStoredProcedure("sp_FindDoctorByName", parameters, SqlHelper.ConnectionString)
+        Dim mapDoctor As List(Of Doctor) = Doctor.MapDoctor(dataTable)
+        Return mapDoctor
+    End Function
+    
 End Class
