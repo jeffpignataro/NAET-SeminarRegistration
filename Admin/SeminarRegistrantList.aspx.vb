@@ -137,7 +137,13 @@ Public Class SeminarRegistrantList
         If (ddlRegistrantStatusId.SelectedValue = EnumHelper.RegistrantStatus.Attended) Then
             If (doctorId = 0) Then
                 'Doctor needs to be added to the database
+                Dim _seminarRegistration As SeminarRegistration = New SeminarRegistration()
+                Dim getSeminarRegistrationById As SeminarRegistration = _seminarRegistration.GetSeminarRegistrationById(registrant.GetRegistrant(seminarRegistrantId).RegistrationId)
+                Dim _doctor As Doctor = New Doctor()
+                Dim findDoctorByName As List(Of Doctor) = _doctor.FindDoctorByName(getSeminarRegistrationById.LastName, getSeminarRegistrationById.FirstName)
+                If (findDoctorByName.Count > 0) Then
 
+                End If
             End If
             Doctor.AddAttendeeAddRegistration(doctorId, seminarId)
         End If

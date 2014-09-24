@@ -161,5 +161,5 @@ Public Class Doctor
         Dim mapDoctor As List(Of Doctor) = Doctor.MapDoctor(dataTable)
         Return mapDoctor
     End Function
-    
+
 End Class
