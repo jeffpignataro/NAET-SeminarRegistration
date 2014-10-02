@@ -381,4 +381,49 @@ Public Class SqlHelper
         sqlParameterCollection.Add(New SqlParameter("@FirstName", firstname))
         Return sqlParameterCollection
     End Function
+
+    Public Shared Function AddDoctorParameters(ByVal doctor As Doctor) As List(Of SqlParameter)
+        '@ipUserName nvarchar(50)
+        '@ipPWD nvarchar(50)
+        '@ipFirstName nvarchar(50)
+        '@ipLastname nvarchar(50)
+        '@ipTitle nvarchar(50)
+        '@ipCompany nvarchar(50)
+        '@ipPhone nvarchar(50)
+        '@ipFax nvarchar(50)
+        '@ipHomepage nvarchar(255)
+        '@ipEmail nvarchar(50)
+        '@ipAddedBy nvarchar(50)
+        '@ipNewsLetterDate nvarchar(255)
+        '@ipStatus bit
+        '@ipShowLink bit
+        '@AllowNewsletterRenewal bit
+        '@ipAcupunctureTrained bit
+        '@ipAcupunctureDates nvarchar(255)
+        '@ipTier int
+        '@ipOverRideRenewal bit
+        '@ipPractitionerDisposition nvarchar(1000)) AS
+        Dim sqlParameterCollection As New List(Of SqlParameter)
+        sqlParameterCollection.Add(New SqlParameter("@ipUserName", doctor.Username))
+        sqlParameterCollection.Add(New SqlParameter("@ipPWD", doctor.Password))
+        sqlParameterCollection.Add(New SqlParameter("@ipFirstName", doctor.FirstName))
+        sqlParameterCollection.Add(New SqlParameter("@ipLastname", doctor.LastName))
+        sqlParameterCollection.Add(New SqlParameter("@ipTitle", doctor.Title))
+        sqlParameterCollection.Add(New SqlParameter("@ipCompany", doctor.Company))
+        sqlParameterCollection.Add(New SqlParameter("@ipPhone", doctor.Phone))
+        sqlParameterCollection.Add(New SqlParameter("@ipFax", doctor.Fax))
+        sqlParameterCollection.Add(New SqlParameter("@ipHomepage", doctor.HomePage))
+        sqlParameterCollection.Add(New SqlParameter("@ipEmail", doctor.Email))
+        sqlParameterCollection.Add(New SqlParameter("@ipAddedBy", doctor.ChangedBy))
+        sqlParameterCollection.Add(New SqlParameter("@ipNewsLetterDate", doctor.NewsLetterDate))
+        sqlParameterCollection.Add(New SqlParameter("@ipStatus", doctor.Status))
+        sqlParameterCollection.Add(New SqlParameter("@ipShowLink", doctor.ShowLink))
+        sqlParameterCollection.Add(New SqlParameter("@AllowNewsletterRenewal", doctor.AllowNewsletterRenewal))
+        sqlParameterCollection.Add(New SqlParameter("@ipAcupunctureTrained", doctor.AcupunctureTrained))
+        sqlParameterCollection.Add(New SqlParameter("@ipAcupunctureDates", doctor.AcupunctureDates))
+        sqlParameterCollection.Add(New SqlParameter("@ipTier", doctor.DoctorTierID))
+        sqlParameterCollection.Add(New SqlParameter("@ipOverRideRenewal", doctor.Override_RenewalRules))
+        sqlParameterCollection.Add(New SqlParameter("@ipPractitionerDisposition", doctor.PractitionerDisposition))
+        Return sqlParameterCollection
+    End Function
 End Class

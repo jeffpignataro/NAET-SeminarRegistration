@@ -97,6 +97,7 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin\Ajax.aspx" />
     <Content Include="Admin\SeminarRegistrantEdit.aspx" />
     <Content Include="Admin\SeminarRegistrationForm.aspx" />
     <Content Include="App_Readme\Elmah.txt" />
@@ -138,6 +139,13 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\Ajax.aspx.designer.vb">
+      <DependentUpon>Ajax.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Ajax.aspx.vb">
+      <DependentUpon>Ajax.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Admin\SeminarRegistrantEdit.aspx.designer.vb">
       <DependentUpon>SeminarRegistrantEdit.aspx</DependentUpon>
     </Compile>

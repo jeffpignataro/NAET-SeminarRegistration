@@ -1,5 +1,6 @@
 ﻿Imports System.Data.SqlClient
 Imports System.Linq
+Imports System.Activities.Statements
 
 Public Class Doctor
 
@@ -49,7 +50,7 @@ Public Class Doctor
         Me.DoctorKey = doctorKey
         Me.Username = username
         Me.Password = password
-        Me.Firstname = firstname
+        Me.FirstName = firstname
         Me.LastName = lastName
         Me.Title = title
         Me.Company = company
@@ -82,7 +83,7 @@ Public Class Doctor
         Me.AcupunctureDates = acupunctureDates
         Me.DoctorTierID = doctorTierId
         Me.PractitionerDisposition = practitionerDisposition
-        Override_RenewalRules = overrideRenewalRules
+        Me.Override_RenewalRules = overrideRenewalRules
     End Sub
 
     Private Shared Function MapDoctor(ByVal dataTable As DataTable) As List(Of Doctor)
@@ -94,7 +95,7 @@ Public Class Doctor
                     .DoctorKey = SqlHelper.CheckForNull(dataRow.Item("DoctorKey"), GetType(Integer))
                     .Username = SqlHelper.CheckForNull(dataRow.Item("Username"), GetType(String))
                     .Password = SqlHelper.CheckForNull(dataRow.Item("Password"), GetType(String))
-                    .Firstname = SqlHelper.CheckForNull(dataRow.Item("Firstname"), GetType(String))
+                    .FirstName = SqlHelper.CheckForNull(dataRow.Item("Firstname"), GetType(String))
                     .LastName = SqlHelper.CheckForNull(dataRow.Item("LastName"), GetType(String))
                     .Title = SqlHelper.CheckForNull(dataRow.Item("Title"), GetType(String))
                     .Company = SqlHelper.CheckForNull(dataRow.Item("Company"), GetType(String))
@@ -147,6 +148,11 @@ Public Class Doctor
         Return SqlHelper.ExecuteStoredProcedure("sp_AddAttendeeAddRegistration", parameters, SqlHelper.ConnectionString)
     End Function
 
+    Public Shared Function AddDoctor(ByRef doctor As Doctor) As DataTable
+        Dim parameters As List(Of SqlParameter) = SqlHelper.AddDoctorParameters(doctor)
+        Return SqlHelper.ExecuteStoredProcedure("sp_AddDoctor", parameters, SqlHelper.ConnectionString)
+    End Function
+
     Public Function FindDoctorByLastName(ByVal doctorLastName As String) As List(Of Doctor)
         Dim parameters As List(Of SqlParameter) = SqlHelper.GetDoctorLastNameParameters(doctorLastName)
         Dim dataTable As DataTable = SqlHelper.ExecuteStoredProcedure("sp_DoctorFromLastName", parameters, SqlHelper.ConnectionString)
@@ -162,4 +168,48 @@ Public Class Doctor
         Return mapDoctor
     End Function
 
+    Public Function CreateDoctorFromSeminarRegistration(ByVal seminarRegistrationById As SeminarRegistration) As Integer
+        Dim newDoctor As Doctor = New Doctor() With {
+            .Username = seminarRegistrationById.FirstName.Substring(0, 1) + seminarRegistrationById.LastName,
+            .Password = "",
+            .FirstName = seminarRegistrationById.FirstName,
+            .LastName = seminarRegistrationById.LastName,
+            .Title = seminarRegistrationById.Degree,
+            .Company = "",
+            .Phone = seminarRegistrationById.Phone,
+            .Fax = seminarRegistrationById.Fax,
+            .HomePage = "",
+            .Email = seminarRegistrationById.Email,
+            .NewsLetterDate = Now.AddDays(365),
+            .Status = seminarRegistrationById.Status,
+            .ChangedBy = "Auto-Create",
+            .ChangedOn = Now,
+            .GroupNames = ",Doctor,",
+            .Expire = "",
+            .NTuser = "",
+            .NTpassword = "",
+            .Lastlogin = Date.MinValue,
+            .HasAccess = True,
+            .StudyAccess = 0,
+            .ShowLink = True,
+            .AllowNewsletterRenewal = True,
+            .LastRenewalEmail = Now.AddDays(365),
+            .AutismApproved = False,
+            .EPW = "",
+            .RequiredData = "",
+            .ChangeRequestPW = "",
+            .ChangeRequestTime = Date.MinValue,
+            .PWReset = Date.MinValue,
+            .PWResetIP = "",
+            .AcupunctureTrained = 0,
+            .AcupunctureDates = "",
+            .DoctorTierID = 1,
+            .PractitionerDisposition = "",
+            .Override_RenewalRules = False
+        }
+        Dim dataTable As DataTable = AddDoctor(newDoctor)
+        If Not (IsNothing(dataTable)) Then
+            Return dataTable.Rows(0).Item("DoctorKey")
+        End If
+    End Function
 End Class

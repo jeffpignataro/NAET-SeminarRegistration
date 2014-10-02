@@ -77,6 +77,15 @@ Partial Public Class SeminarRegistrantList
     Protected WithEvents ddlCourseType As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
+    '''hdnDdlCourseType control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents hdnDdlCourseType As Global.System.Web.UI.WebControls.HiddenField
+
+    '''<summary>
     '''upDdlCourseDate control.
     '''</summary>
     '''<remarks>
@@ -95,6 +104,15 @@ Partial Public Class SeminarRegistrantList
     Protected WithEvents ddlCourseDate As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
+    '''hdnDdlCourseDate control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents hdnDdlCourseDate As Global.System.Web.UI.WebControls.HiddenField
+
+    '''<summary>
     '''upDdlRegistrantStatusFilter control.
     '''</summary>
     '''<remarks>
@@ -111,6 +129,15 @@ Partial Public Class SeminarRegistrantList
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents ddlRegistrantStatusFilter As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''hdnDdlRegistrantStatusFilter control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents hdnDdlRegistrantStatusFilter As Global.System.Web.UI.WebControls.HiddenField
 
     '''<summary>
     '''btnExportExcel control.

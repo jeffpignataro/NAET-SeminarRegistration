@@ -1,9 +1,5 @@
 ﻿Imports System.Linq
-Imports System.Web.Services
 Imports System.IO
-Imports System.ComponentModel
-Imports PayPal.Payments.DataObjects
-Imports PayPal.Payments.Common
 
 Public Class SeminarRegistrantList
     Inherits Page
@@ -39,9 +35,15 @@ Public Class SeminarRegistrantList
         ddlCourseDate.DataBind()
     End Sub
 
+    Public Sub ClearDropDownListItems(ByVal dropDownList As DropDownList)
+        dropDownList.Items.Clear()
+        dropDownList.Items.Add(New ListItem("Select One", "0"))
+    End Sub
+
     Protected Sub ddlCourseType_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ddlCourseType.SelectedIndexChanged
         Dim course As New Course
         Dim getCourses As New List(Of Course)
+        hdnDdlCourseType.Value = ddlCourseType.SelectedValue
         If (ddlCourseType.SelectedValue <> 0) Then
             getCourses = course.GetCoursesByType(ddlCourseType.SelectedValue)
         Else
@@ -55,16 +57,13 @@ Public Class SeminarRegistrantList
         ddlCourseDate.DataBind()
     End Sub
 
-    Public Sub ClearDropDownListItems(ByVal dropDownList As DropDownList)
-        dropDownList.Items.Clear()
-        dropDownList.Items.Add(New ListItem("Select One", "0"))
-    End Sub
-
     Protected Sub ddlCourseDate_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ddlCourseDate.SelectedIndexChanged
+        hdnDdlCourseDate.Value = ddlCourseDate.SelectedValue
         BindCourseRegistrantsGridView()
     End Sub
 
     Protected Sub ddlRegistrantStatusFilter_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ddlRegistrantStatusFilter.SelectedIndexChanged
+        hdnDdlRegistrantStatusFilter.Value = ddlRegistrantStatusFilter.SelectedValue
         BindCourseRegistrantsGridView()
     End Sub
 
@@ -105,6 +104,12 @@ Public Class SeminarRegistrantList
             ddlRegistrantStatusId.DataValueField = "key"
             ddlRegistrantStatusId.DataBind()
             ddlRegistrantStatusId.SelectedValue = registrantStatusId
+
+            Dim doctorId As Integer = gvCourseRegistrants.DataKeys(e.Row.RowIndex).Item("DoctorId")
+            Dim btnAddLineItem As Button = e.Row.FindControl("btnAddLineItem")
+            If (doctorId = 0) Then
+                btnAddLineItem.Visible = True
+            End If
         End If
     End Sub
 
@@ -135,16 +140,6 @@ Public Class SeminarRegistrantList
         registrant.UpdateRegistrant(seminarRegistrantId, ddlRegistrantStatusId.SelectedValue)
         registrant.AddRegistrantStatusAudit(seminarRegistrantId, ddlRegistrantStatusId.SelectedValue, Session("username"), Now)
         If (ddlRegistrantStatusId.SelectedValue = EnumHelper.RegistrantStatus.Attended) Then
-            If (doctorId = 0) Then
-                'Doctor needs to be added to the database
-                Dim _seminarRegistration As SeminarRegistration = New SeminarRegistration()
-                Dim getSeminarRegistrationById As SeminarRegistration = _seminarRegistration.GetSeminarRegistrationById(registrant.GetRegistrant(seminarRegistrantId).RegistrationId)
-                Dim _doctor As Doctor = New Doctor()
-                Dim findDoctorByName As List(Of Doctor) = _doctor.FindDoctorByName(getSeminarRegistrationById.LastName, getSeminarRegistrationById.FirstName)
-                If (findDoctorByName.Count > 0) Then
-
-                End If
-            End If
             Doctor.AddAttendeeAddRegistration(doctorId, seminarId)
         End If
     End Sub
@@ -297,7 +292,7 @@ Public Class SeminarRegistrantList
         Response.Output.Write(tw.ToString())
         Response.End()
     End Sub
-    
+
     Public Overrides Sub VerifyRenderingInServerForm(control As Control)
         'For the excel RenderControl
     End Sub

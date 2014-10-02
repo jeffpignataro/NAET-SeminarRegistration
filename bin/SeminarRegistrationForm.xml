@@ -6,7 +6,15 @@ SeminarRegistrationForm
 </name>
 </assembly>
 <members>
-<member name="T:SeminarRegistrationForm._Default">
+<member name="F:SeminarRegistrationForm.Ajax.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:SeminarRegistrationForm._Default">
 	<summary>
 _Default class.
 </summary>
@@ -1325,6 +1333,14 @@ ddlCourseType control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrantList.hdnDdlCourseType">
+	<summary>
+hdnDdlCourseType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="F:SeminarRegistrationForm.SeminarRegistrantList.upDdlCourseDate">
 	<summary>
 upDdlCourseDate control.
@@ -1341,6 +1357,14 @@ ddlCourseDate control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrantList.hdnDdlCourseDate">
+	<summary>
+hdnDdlCourseDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="F:SeminarRegistrationForm.SeminarRegistrantList.upDdlRegistrantStatusFilter">
 	<summary>
 upDdlRegistrantStatusFilter control.
@@ -1352,6 +1376,14 @@ To modify move field declaration from designer file to code-behind file.
 </member><member name="F:SeminarRegistrationForm.SeminarRegistrantList.ddlRegistrantStatusFilter">
 	<summary>
 ddlRegistrantStatusFilter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SeminarRegistrationForm.SeminarRegistrantList.hdnDdlRegistrantStatusFilter">
+	<summary>
+hdnDdlRegistrantStatusFilter control.
 </summary>
 	<remarks>
 Auto-generated field.
