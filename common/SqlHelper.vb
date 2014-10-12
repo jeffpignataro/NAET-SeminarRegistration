@@ -426,4 +426,35 @@ Public Class SqlHelper
         sqlParameterCollection.Add(New SqlParameter("@ipPractitionerDisposition", doctor.PractitionerDisposition))
         Return sqlParameterCollection
     End Function
+
+    Public Shared Function AddDoctorLocationParameters(ByVal doctor As Doctor) As List(Of SqlParameter)
+        '@ipDoctorKey nvarchar(50) 
+        '@ipDesc nvarchar(50) 
+        '@ipCompany nvarchar(100) 
+        '@ipPhone nvarchar(50) 
+        '@ipFax nvarchar(50) 
+        '@ipAddress nvarchar(50) 
+        '@ipAddress2 nvarchar(50) 
+        '@ipCity nvarchar(50) 
+        '@ipState nvarchar(50) 
+        '@ipZip nvarchar(50) 
+        '@ipCountry nvarchar(50) 
+        '@ipPrimary bit = 0 
+        '@ipChangedBy nvarchar(50)
+        Dim sqlParameterCollection As New List(Of SqlParameter)
+        sqlParameterCollection.Add(New SqlParameter("@ipDoctorKey", doctor.DoctorLocation.DoctorKey))
+        sqlParameterCollection.Add(New SqlParameter("@ipDesc", doctor.DoctorLocation.Description))
+        sqlParameterCollection.Add(New SqlParameter("@ipCompany", doctor.DoctorLocation.Company))
+        sqlParameterCollection.Add(New SqlParameter("@ipPhone", doctor.DoctorLocation.Phone))
+        sqlParameterCollection.Add(New SqlParameter("@ipFax", doctor.DoctorLocation.Fax))
+        sqlParameterCollection.Add(New SqlParameter("@ipAddress", doctor.DoctorLocation.Address1))
+        sqlParameterCollection.Add(New SqlParameter("@ipAddress2", doctor.DoctorLocation.Address2))
+        sqlParameterCollection.Add(New SqlParameter("@ipCity", doctor.DoctorLocation.City))
+        sqlParameterCollection.Add(New SqlParameter("@ipState", doctor.DoctorLocation.State))
+        sqlParameterCollection.Add(New SqlParameter("@ipZip", doctor.DoctorLocation.Zip))
+        sqlParameterCollection.Add(New SqlParameter("@ipCountry", doctor.DoctorLocation.Country))
+        sqlParameterCollection.Add(New SqlParameter("@ipPrimary", doctor.DoctorLocation.PrimaryContact))
+        sqlParameterCollection.Add(New SqlParameter("@ipChangedBy", doctor.DoctorLocation.ChangedBy))
+        Return sqlParameterCollection
+    End Function
 End Class

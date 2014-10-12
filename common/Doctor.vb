@@ -153,6 +153,11 @@ Public Class Doctor
         Return SqlHelper.ExecuteStoredProcedure("sp_AddDoctor", parameters, SqlHelper.ConnectionString)
     End Function
 
+    Public Shared Function AddDoctorLocation(ByRef doctor As Doctor) As DataTable
+        Dim parameters As List(Of SqlParameter) = SqlHelper.AddDoctorLocationParameters(doctor)
+        Return SqlHelper.ExecuteStoredProcedure("sp_AddLocation", parameters, SqlHelper.ConnectionString)
+    End Function
+
     Public Function FindDoctorByLastName(ByVal doctorLastName As String) As List(Of Doctor)
         Dim parameters As List(Of SqlParameter) = SqlHelper.GetDoctorLastNameParameters(doctorLastName)
         Dim dataTable As DataTable = SqlHelper.ExecuteStoredProcedure("sp_DoctorFromLastName", parameters, SqlHelper.ConnectionString)
@@ -205,11 +210,34 @@ Public Class Doctor
             .AcupunctureDates = "",
             .DoctorTierID = 1,
             .PractitionerDisposition = "",
-            .Override_RenewalRules = False
+            .Override_RenewalRules = False,
+            .DoctorLocation = New DoctorLocation() With {
+                .Phone = seminarRegistrationById.Phone,
+                .Fax = seminarRegistrationById.Fax,
+                .Address1 = seminarRegistrationById.Address,
+                .Address2 = "",
+                .City = seminarRegistrationById.City,
+                .State = seminarRegistrationById.State,
+                .Zip = seminarRegistrationById.Zip,
+                .Country = seminarRegistrationById.Country,
+                .Company = "",
+                .Description = "Primary location",
+                .PrimaryContact = 1,
+                .ChangedBy = "Auto-Generated"
+                }
         }
         Dim dataTable As DataTable = AddDoctor(newDoctor)
         If Not (IsNothing(dataTable)) Then
-            Return dataTable.Rows(0).Item("DoctorKey")
+            Try
+                Dim docKey = dataTable.Rows(0).Item("DoctorKey")
+                newDoctor.DoctorKey = docKey
+                newDoctor.DoctorLocation.DoctorKey = docKey
+                Dim location = AddDoctorLocation(newDoctor)
+                Return docKey
+            Catch ex As Exception
+                'UserID already exists!!
+                Return 0
+            End Try
         End If
     End Function
 End Class

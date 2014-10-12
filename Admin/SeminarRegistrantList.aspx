@@ -22,6 +22,11 @@
             var existingDoctorRecordId = $(this).attr("id");
             applyDoctorToExistingRecord(existingDoctorRecordId, seminarRegistrationId);
         });
+
+        $(document).on("click", "#btnAddNewDoctor", function () {
+            addDoctorAsNew();
+        });
+
         //***************************
         //End document-wide functions
         //***************************
@@ -125,7 +130,7 @@
                 $.when(
                     addDoctorAsNew()
                 ).done(function () {
-                    $("#dialog-search-modal").html("<p>Doctor record successfully added.</p><p style='text-align:center;'><button onClick='closeDialog();'>Close</button></p>");
+                    $("#dialog-search-modal").html("<p>Doctor record successfully added.</p><p style='text-align:center;'><button onClick='closeDialog()'>Close</button></p>");
                     showDialog();
                 });
                 return false;
@@ -139,8 +144,14 @@
         }
         function addDoctorAsNewSuccess(response, seminarRegistrationId) {
             var json = $.parseJSON(response.d);
-            applyDoctorToExistingRecord(json.doctorId, seminarRegistrationId);
-            $("#" + senderId).hide();
+            if (!json.hasOwnProperty('ErrorMessage')) {
+                applyDoctorToExistingRecord(json.doctorId, seminarRegistrationId);
+                $("#" + senderId).hide();
+            } else {
+                //the doctor record couldn't be created
+                //most likely because the username already exists
+                $("#dialog-search-modal").html("<p>Doctor's auto-generated username already exists.<br>This record cannot be created automatically.</p><p style='text-align:center;'><button onClick='closeDialog()'>Close</button></p>");
+            }
         }
         //**************************
         //End AJAX Success functions
